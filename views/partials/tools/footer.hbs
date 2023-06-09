@@ -1,0 +1,173 @@
+<div class="div-h3">
+  <h3 class="edades-h3">MARCAS QUE NOS ACOMPAÑAN</h3>
+</div>
+<section class="marcas-section">
+  <a href="/bureau" class="marca-1"></a>
+  <a href="/mattel" class="marca-2"></a>
+  <a href="/_BRAND_1006823#applied_filter_id%3DBRAND%26applied_filter_name%3DMarca%26applied_filter_order%3D11%26applied_value_id%3D1006823%26applied_value_name%3DHasbro%26applied_value_order%3D43%26applied_value_results%3D37%26is_custom%3Dfalse" class="marca-3"></a>
+  <a href="/_BRAND_3097179#applied_filter_id%3DBRAND%26applied_filter_name%3DMarca%26applied_filter_order%3D11%26applied_value_id%3D3097179%26applied_value_name%3DPlaymobil%26applied_value_order%3D93%26applied_value_results%3D25%26is_custom%3Dfalse" class="marca-4"></a>
+</section>
+
+<div class="div-h3">
+  <h3 class="edades-h3">BUSCÁ POR EDADES</h3>
+</div>
+<section class="edades-section">
+  <a href="/_MIN*RECOMMENDED*AGE_*-2años" class="edad-1"></a>
+  <a href="/_MIN*RECOMMENDED*AGE_2años-5años" class="edad-2"></a>
+  <a href="/_MIN*RECOMMENDED*AGE_5años-7años#applied_filter_id%3DMIN_RECOMMENDED_AGE%26applied_filter_name%3DEdad+mínima+recomendada%26applied_filter_order%3D12%26applied_value_id%3D%5B5años-7años%29%26applied_value_name%3D5+a+6+años%26applied_value_order%3D3%26applied_value_results%3D70%26is_custom%3Dfalse" class="edad-3"></a>
+  <a href="/_MIN*RECOMMENDED*AGE_7años-14años#applied_filter_id%3DMIN_RECOMMENDED_AGE%26applied_filter_name%3DEdad+mínima+recomendada%26applied_filter_order%3D12%26applied_value_id%3D%5B7años-14años%29%26applied_value_name%3D7+a+13+años%26applied_value_order%3D4%26applied_value_results%3D62%26is_custom%3Dfalse" class="edad-4"></a>
+  <a href="/_MIN*RECOMMENDED*AGE_14años-*" class="edad-5"></a>
+</section>
+<section class="pagos-section">
+  <div>
+    <img src="https://iili.io/H88yXa9.png" alt="">
+    <strong>Tenemos diferentes métodos de pago</strong>
+    <p>Con Mercado Pago, tenés cuotas sin intereses con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+  </div>
+  <div class="bordes-footer">
+    <img src="https://iili.io/H88yhve.png" alt="">
+    <strong>Recibí tu producto en la puerta de tu casa</strong>
+    <p>Recibí el producto en tu casa o en una sucursal de correo. Y seguí tu compra hasta que llega a tus manos.</p>
+  </div>
+  <div>
+    <img src="https://iili.io/H88yhve.png" alt="">
+    <strong>Compras 100% seguras</strong>
+    <p>Te acompañamos hasta que recibas lo que compraste. Y si no es lo que esperabas, te devolvemos el dinero.</p>
+  </div>
+</section>
+{{#if subscriptionFooter.active}}
+  {{> tools/views/partials/suscription}}
+{{/if}}
+<footer class="nav-tools-footer">
+  {{!-- <section class="nav-tools-footer__bound header--custom-background">
+    <section class="nav-tools-footer__top">
+      <div class="nav-tools-footer__info header--custom-text">
+        <div class="nav-tools-footer__logo">
+          {{#if logo}}
+            <img src="{{logo}}" alt="{{name}}">
+          {{else}}
+            <span class="header--custom-text">
+              {{name}}
+            </span>
+          {{/if}}
+        </div>
+        <div class="nav-tools-footer__contact">
+          <div data-editable="contact">
+            {{#if showContact}}
+              {{#if showPhone}}
+                <a class="header--custom-text">{{phone.formatted}}</a>
+              {{/if}}
+
+              {{#if showEmail}}
+                <a class="header--custom-text" href="mailto:{{email}}">{{email}}</a>
+              {{/if}}
+
+              {{#if address}}
+                {{#with address}}
+                  <p>
+                    <span itemprop="streetAddress" class="header--custom-text">{{address}}</span>
+                    <span itemprop="addressLocality" class="header--custom-text">{{city}}</span>
+                    <span itemprop="addressRegion" class="header--custom-text">{{state}}</span>
+                  </p>
+                {{/with}}
+              {{/if}}
+            {{/if}}
+          </div>
+          <div class="nav-tools-footer__social-media" data-editable="socialNetworks">
+            {{#if showSocialNetworks}}
+              {{#each socialNetworks}}
+                <a href="{{url}}" target="_blank" class="header--custom-svg" rel="noopener noreferrer nofollow">
+                  {{> (concat 'icons/social_networks/' (lookup . 'name'))}}
+                </a>
+              {{/each}}
+            {{/if}}
+          </div>
+        </div>
+      </div>
+      <div class="nav-tools-footer__categories header--custom-text header--custom-border">
+        {{#each menu}}
+          <span class="nav-tools-footer__category">
+            <a class="header--custom-text" href="{{url}}" data-id="{{id}}">
+              {{name}}
+            </a>
+          </span>
+        {{/each}}
+      </div>
+      <div class="nav-tools-footer__pages header--custom-text header--custom-border">
+        <span class="nav-tools-footer__page">
+          <a href="{{linkToHowBuy.href}}" class="header--custom-text">{{linkToHowBuy.label}}</a>
+        </span>
+      </div>
+      <div class="nav-tools-footer__social-media" data-editable="socialNetworks">
+        {{#if showSocialNetworks}}
+          {{#each socialNetworks}}
+            <a href="{{url}}" target="_blank" class="header--custom-svg" rel="noopener noreferrer nofollow">
+              {{> (concat 'icons/social_networks/' (lookup . 'name'))}}
+            </a>
+          {{/each}}
+        {{/if}}
+      </div>
+    </section> --}}
+    <section class="footer-section">
+      <div class="footer-menu">
+        <div class="footer-menu-copy">
+          <p>Copyright © 2021 Tiendas Oficiales S.R.L. Imagenes a modo ilustrativo, los precios publicados en la web pueden tener variaciones sin previo aviso. Somos la TIENDA OFICIAL SCOOTER ITALY Argentina</p>
+        </div>
+        <div class="footer-menu-menu">
+          <div>
+            <a href="/listado/juegos-juguetes/">Juegos y Juguetes</a>
+            <a href="/listado/bebes/">Bebés</a>
+          </div>
+          <div>
+            <a href="/listado/deportes-fitness/">Deporte y Fitness</a>
+            <a href="/nuestros-productos">Otras categorías</a>
+          </div>
+        </div>      
+      </div>
+      <div class="footer-main">
+        <img class="" src="https://iili.io/H8VmnNs.png" alt="">
+        <a href="/p/como-comprar">¿Cómo Comprar?</a>
+      </div>
+      <div class="footer-contact">
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/shoxargentina" target="_blank"><img src="https://iili.io/H8rxwIj.png" alt=""></a>
+          <a href="https://www.instagram.com/shox.store.argentina/" target="_blank"><img src="https://iili.io/H8rxNhx.png" alt=""></a>
+          <a href="https://www.youtube.com/channel/UCgqCDse325wmYQvN-0Byn2Q/featured" target="_blank"><img src="https://iili.io/H8rxOLQ.png" alt=""></a>
+        </div>
+        <h5>¡Seguinos en nuestras redes!</h5>
+        <p>Tel: (11)65959115<img src="https://iili.io/H8rzyKB.png" alt=""></p>
+        <p>Av. Nazca 1346 Santa Rita, Capital Federal <img src="https://iili.io/H8rzmPV.png" alt=""></p>
+      </div>
+    </section>
+    <section class="nav-tools-footer__bottom header--custom-border header--custom-text">
+      <div>
+        <div class="nav-footer-about">
+          <a href="{{{linkToMShopsLandingPage}}}" target="_blank" class="header--custom-text">{{i18n.powered_by}}</a>
+          <a href="https://galarreta.co/" target="_blank"><p>Developed by GALARRETA®</p></a>
+          {{#if linkToLegalNotices}}
+            <a href="{{linkToLegalNotices.href}}" class="header--custom-text">{{linkToLegalNotices.label}}</a>
+          {{/if}}
+          {{#if linkToLGPD}}
+            <a href="{{linkToLGPD.href}}" class="header--custom-text">{{linkToLGPD.label}}</a>
+          {{/if}}
+        </div>
+
+        {{#if showBusinessData}}
+          {{#with fiscalData}}
+            <div class="nav-footer-fiscal-data">
+              <p class="nav-footer-fiscal-data__name">{{legal_name}}</p>
+              <p class="nav-footer-fiscal-data__id">{{legal_doc}}</p>
+            </div>
+          {{/with}}
+        {{/if}}
+      </div>
+      {{#if showQrData}}
+        {{#with fiscalData}}
+          <a href={{qr_link}} target="_F960AFIPInfo">
+            <img class="nav-footer-afip-img" src={{qr_img}} alt="Data fiscal" />
+          </a>
+        {{/with}}
+      {{/if}}
+    </section>
+  </section>
+</footer>
